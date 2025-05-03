@@ -1,6 +1,8 @@
 import "../styles/Navbar.css"
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Search, ShoppingCart, ChevronDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
