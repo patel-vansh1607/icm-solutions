@@ -3,6 +3,11 @@ import "../styles/Navbar.css"
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          setIsScrolled(window.scrollY > 10);
+        };
     return(
         <div className="main-div">
             <nav
