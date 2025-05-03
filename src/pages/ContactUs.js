@@ -27,7 +27,7 @@ const ContactUs = () => {
 
       <div className="contact-bottom">
         <div className="map-cont">
-            
+            <h2>Our Location</h2>
         </div>
       </div>
 
