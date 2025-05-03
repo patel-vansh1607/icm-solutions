@@ -107,4 +107,78 @@
     height: 50px;
     object-fit: cover;
   }
+  @media (max-width: 1024px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .hero-buttons {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .hero-buttons button {
+      margin: 0.5rem;
+      width: 80%;
+      max-width: 300px;
+    }
+  
+    .hero-rating {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .avatars {
+      margin-bottom: 0.5rem;
+    }
+  
+    .hero-image {
+      max-width: 100%;
+    }
+  
+    .badge-right,
+    .badge-left {
+      position: static;
+      margin: 1rem auto;
+      display: inline-block;
+    }
+  
+    .main-img img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .hero-buttons button {
+      font-size: 0.95rem;
+      padding: 0.7rem 1.2rem;
+    }
+  
+    .badge img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .badge {
+      font-size: 0.7rem;
+    }
+  }
+  
   
