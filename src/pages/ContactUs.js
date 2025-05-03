@@ -25,6 +25,12 @@ const ContactUs = () => {
         </div>
       </div>
 
+      <div className="contact-bottom">
+        <div className="map-cont">
+            
+        </div>
+      </div>
+
         </div>
     )
 }
