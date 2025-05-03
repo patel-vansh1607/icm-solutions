@@ -13,7 +13,17 @@ const ContactUs = () => {
           <p><strong>Email:</strong> info@seed.com</p>
           <p><strong>Address:</strong> 123 Green Avenue, Nakuru, Kenya</p>
         </div>
-x
+        
+        <div className="contact-form">
+          <h3>Send Us a Message</h3>
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
 
         </div>
     )
