@@ -9,7 +9,7 @@ const IntroComponent = () => {
           Grow Your <span className="highlight">Perfect Garden</span> With <br />Premium Seeds
         </h1>
         <p>
-          Discover our curated collection of high-quality seeds for beautiful flowers, nutritious vegetables, and aromatic herbs.
+          Discover our curated collection of high-quality seeds <br></br> for beautiful flowers, nutritious vegetables, and<br></br>  aromatic herbs.
         </p>
         <div className="hero-buttons">
           <button className="shop-btn">Shop Our Collection →</button>
