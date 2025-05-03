@@ -32,14 +32,6 @@ const IntroComponent = () => {
         <div className="main-img">
           <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb" alt="Main Gardening" />
         </div>
-        <div className="badge badge-right">
-          <img src="https://i.pravatar.cc/50?img=4" alt="Non-GMO" />
-          <p>Non-GMO</p>
-        </div>
-        <div className="badge badge-left">
-          <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919" alt="Organic" />
-          <p>100% Organic</p>
-        </div>
       </div>
     </section>
   );
