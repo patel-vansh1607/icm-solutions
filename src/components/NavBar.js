@@ -9,7 +9,14 @@ const NavBar = () => {
                   ? 'bg-white shadow-md py-2' 
                   : 'bg-transparent py-4'
               }`}
-              >
+            >
+            <div className="container mx-auto px-4">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+
+                </div>
+              </div>
+            </div>
 
             </nav>
         </div>
