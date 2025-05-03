@@ -1,6 +1,8 @@
 import "../styles/Navbar.css"
 
 const NavBar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
     return(
         <div className="main-div">
             <nav
