@@ -1,0 +1,51 @@
+
+.about-page {
+    padding: 40px;
+    background-color: #f0faf5;
+    color: #033b2b;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .about-page h1 {
+    color: #016844;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-page p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+  
+  .about-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .about-sections div {
+    flex: 1;
+    min-width: 280px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 5px solid #016844;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(1, 104, 68, 0.07);
+  }
+  
+  .about-sections h2 {
+    color: #016844;
+    margin-bottom: 10px;
+  }
+  
+  .about-sections ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about-sections li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
