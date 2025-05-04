@@ -1,4 +1,4 @@
-// src/pages/Faq.js
+
 import React from "react";
 import "../styles/Faq.css";
 
