@@ -1,0 +1,33 @@
+
+.terms-page {
+    padding: 40px;
+    background-color: #fcfffd;
+    font-family: "Segoe UI", sans-serif;
+    color: #034232;
+  }
+  
+  .terms-page h1 {
+    color: #016844;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .terms-page p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+  
+  .terms-page ol {
+    padding-left: 20px;
+    line-height: 1.8;
+  }
+  
+  .terms-page li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .terms-page strong {
+    color: #016844;
+  }
+  
