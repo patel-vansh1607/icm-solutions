@@ -1,35 +1,33 @@
+
 import React from "react";
 import "../styles/ContactUs.css";
 
 const ContactUs = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-page">
       <h1>Contact Us</h1>
-      <div className="contact-top">
-        <div className="contact-info">
-          <h3>Get in Touch</h3>
-          <p><strong>Phone:</strong> +254 712 345 678</p>
-          <p><strong>Email:</strong> info@seed.com</p>
-          <p><strong>Address:</strong> 123 Green Avenue, Nakuru, Kenya</p>
+      <p>We'd love to hear from you!</p>
+
+      <div className="contact-wrapper">
+        <div className="contact-details">
+          <h2>Our Office</h2>
+          <p><strong>Address:</strong> 123 Greenway Blvd, Nairobi, Kenya</p>
+          <p><strong>Email:</strong> support@greengrowseeds.com</p>
+          <p><strong>Phone:</strong> +254 700 123 456</p>
         </div>
+
         <div className="contact-form">
-          <h3>Send Us a Message</h3>
+          <h2>Send a Message</h2>
           <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
             <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit">Send Message</button>
           </form>
         </div>
-      </div>
-      <div className="hours">
-        <h4>Business Hours</h4>
-        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
-        <p>Sat: 10:00 AM - 2:00 PM</p>
-        <p>Sun: Closed</p>
       </div>
     </div>
   );
 };
 
-export default ContactUs; // Ensure default export
+export default ContactUs;
