@@ -1,11 +1,10 @@
-import React from 'react';
 import './App.css';
-import IntroComponent from './components/Intro';  
-import NavBar from './components/NavBar';         
-import AboutUs from './pages/AboutUs';            
-import ContactUs from './pages/ContactUs';        
- 
-
+import NavBar from './components/NavBar';
+import IntroComponent from './components/Intro';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
+import Faq from './pages/Faq';
+import Terms from './pages/Terms';
 
 function App() {
   return (
@@ -14,7 +13,8 @@ function App() {
       <IntroComponent />
       <ContactUs />
       <AboutUs />
-
+      <Faq />
+      <Terms />
     </div>
   );
 }
