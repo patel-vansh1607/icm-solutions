@@ -1,8 +1,10 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import IntroComponent from './components/Intro';
-
+import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import Terms from './pages/Terms';
+import Faq from './pages/Faq';
 
 
 function App() {
@@ -11,7 +13,10 @@ function App() {
       <NavBar />
       <IntroComponent />
       <ContactUs />
-     
+      <AboutUs />
+      <Faq />
+      <Terms/>
+
     </div>
   );
 }
