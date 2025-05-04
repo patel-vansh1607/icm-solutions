@@ -1,6 +1,7 @@
 import './App.css';
 import IntroComponent from './components/Intro';
 import NavBar from './components/NavBar';
+import AboutUs from './pages/AboutUs';
 import ContactUs from "./pages/ContactUs"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <IntroComponent />
       <ContactUs />
+      <AboutUs />
 
     </div>
   );
