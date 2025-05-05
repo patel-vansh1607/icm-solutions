@@ -1,4 +1,3 @@
-// src/components/PrivacyPolicy.js
 import React from 'react';
 import '../styles/PrivacyPolicy.css';
 
