@@ -1,8 +1,10 @@
 import './App.css';
+import Footer from './components/Footer';
 import IntroComponent from './components/Intro';
 import NavBar from './components/NavBar';
 import SeedFeatures from './components/SeedFeatures';
 import SeedGrid from './components/seeds/SeedGrid';
+import SubscribeSection from './components/Subscribe';
 import Testimonials from './components/Testimonial';
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <SeedGrid />
       <SeedFeatures />
       <Testimonials />
+      <SubscribeSection />
+      <Footer />
     </div>
   );
 }
