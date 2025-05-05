@@ -5,9 +5,9 @@ import "../styles/AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="about-page">
-      <h1>About GreenGrow Seeds</h1>
+      <h1>About ICM Seeds</h1>
       <p>
-        At GreenGrow, we're committed to sustainable agriculture through
+        At ICM, we're committed to sustainable agriculture through
         high-quality seeds. Founded in 2008, we empower farmers across Africa
         and beyond to grow better, healthier, and more resilient crops.
       </p>
