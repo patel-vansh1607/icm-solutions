@@ -3,7 +3,7 @@ import IntroComponent from './components/Intro';
 import NavBar from './components/NavBar';
 import SeedFeatures from './components/SeedFeatures';
 import SeedGrid from './components/seeds/SeedGrid';
-import TestimonialSection from './components/Testimonial';
+import Testimonials from './components/Testimonial';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <IntroComponent />
       <SeedGrid />
       <SeedFeatures />
-      <TestimonialSection />
+      <Testimonials />
     </div>
   );
 }
