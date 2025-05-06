@@ -11,12 +11,16 @@ import Faq from './pages/Faq';
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <NavBar />
       <IntroComponent />
       <AboutUs /> 
       <ContactUs />
       <Terms />
       <Faq />
+=======
+      
+>>>>>>> dev-vansh
     </div>
   );
 }
