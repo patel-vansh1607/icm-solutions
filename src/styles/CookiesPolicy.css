@@ -1,0 +1,65 @@
+.cookies-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .cookies-container h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+  }
+  
+  .cookies-container h2 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-top: 1.5rem;
+  }
+  
+  .cookies-container p,
+  .cookies-container li {
+    color: #555;
+    margin-bottom: 0.8rem;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .cookies-container {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .cookies-container h1 {
+      font-size: 1.6rem;
+    }
+  
+    .cookies-container h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cookies-container {
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .cookies-container h1 {
+      font-size: 1.3rem;
+    }
+  
+    .cookies-container h2 {
+      font-size: 1.1rem;
+    }
+  
+    .cookies-container p,
+    .cookies-container li {
+      font-size: 0.95rem;
+    }
+  }
+  

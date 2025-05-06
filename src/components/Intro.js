@@ -3,13 +3,14 @@ import '../styles/Intro.css';
 
 const IntroComponent = () => {
   return (
-    <section className="hero">
+   <div className='main-div'>
+     <section className="hero">
       <div className="hero-content">
         <h1>
           Grow Your <span className="highlight">Perfect Garden</span> With <br />Premium Seeds
         </h1>
         <p>
-          Discover our curated collection of high-quality seeds for beautiful flowers, nutritious vegetables, and aromatic herbs.
+          Discover our curated collection of high-quality seeds <br></br> for beautiful flowers, nutritious vegetables, and<br></br>  aromatic herbs.
         </p>
         <div className="hero-buttons">
           <button className="shop-btn">Shop Our Collection →</button>
@@ -34,6 +35,18 @@ const IntroComponent = () => {
         </div>
       </div>
     </section>
+    
+    <section className="premium-seeds-section">
+      <div className="content-container">
+        <h2 className="title">Discover Our Premium Seeds</h2>
+        <p className="description">
+          Carefully selected varieties for both beginner and expert gardeners. All seeds are non-GMO and grown with sustainable practices.
+        </p>
+      </div>
+    </section>
+   </div>
+
+    
   );
 };
 
